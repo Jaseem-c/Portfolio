@@ -7,7 +7,7 @@ function Header() {
  
   return (
    <>
-   <Navbar className=" px-5" style={{backgroundColor:"black"}}>
+   <Navbar expand="lg" className=" px-lg-5" style={{backgroundColor:"black"}}>
       <Container fluid>
         <Navbar.Brand href="#home" className='text-light fs-2 fw-bold' ><LinearGradient gradient={['to left', '#17acff ,#ff68f0']}>Jaseem.</LinearGradient></Navbar.Brand>
         <Navbar.Toggle />
