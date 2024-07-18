@@ -1,0 +1,22 @@
+.custom-button {
+    background: linear-gradient(to left, #17acff, #ff68f0);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background: linear-gradient(to left, #ff68f0, #17acff);
+}
+
+.nav-link {
+    margin-bottom: 0.2rem; /* Default margin */
+    transition: margin-bottom 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    margin-bottom: .5rem; /* Adjusted margin on hover */
+    border-bottom: 1px solid violet;
+  }
