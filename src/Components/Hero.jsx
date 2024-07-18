@@ -38,8 +38,8 @@ function Hero() {
    </div> */}
 
    
-    {/* <div className='hero p-5'>
-       <Row className=' d-flex justify-content-center align-items-center ps-4 h-100 ' style={{width:"100%",height:"100%"}} >
+    <div className='hero px-lg-5 py-4'>
+       <Row className=' d-flex justify-content-center align-items-center ps-4 h-100 mt-3 ' style={{width:"100%",height:"100%"}} >
        <Col md={1}></Col>
             <Col md={6} className='p-3 '>
             <motion.div  initial={{scale:0}} animate={{scale:1}} transition={{duration:"1",delay:".5"}}   >
@@ -53,13 +53,13 @@ function Hero() {
             </motion.div>
             </Col>
            
-            <Col md={5} className='d-flex justify-content-center align-items-center p-5 '>
-            <motion.div  initial={{scale:0}} animate={{scale:1}} transition={{duration:"2",delay:".5"}} className='d-flex justify-content-center align-items-center imagediv' style={{width:"100%",height:"500px",borderRadius:"50%",position:"relative"}}>
+            <Col md={5} className='d-flex justify-content-center align-items-center p-md-5'>
+            <motion.div  initial={{scale:0}} animate={{scale:1}} transition={{duration:"2",delay:".5"}} className='d-flex justify-content-center align-items-center imagediv ' style={{width:"500px",height:"500px",borderRadius:"50%",position:"relative"}}>
               <motion.img initial={{scale:0}} animate={{scale:1}} transition={{duration:"2",delay:".5"}} src={profile} alt="" style={{position:"absolute",width:"115%",height:"115%"}} />
             </motion.div>
             </Col>
           </Row>
-    </div> */}
+    </div>
    </>
   )
 }
