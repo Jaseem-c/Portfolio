@@ -1,0 +1,23 @@
+.custom-textfield-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: blue !important; /* Set outline color to white */
+  }
+  .blurred-background {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            backdrop-filter: blur(5px); /* Blur effect */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+  }
+  .custom-button {
+    background: linear-gradient(to left, #17acff, #ff68f0);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+.icons button{
+    background-color:transparent;
+    border: 3px solid  #ff68f0;
+}
+.icons button:hover{
+    background: linear-gradient(to left, #17acff, #ff68f0);
+}

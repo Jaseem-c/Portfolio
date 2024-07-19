@@ -1,0 +1,57 @@
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    gap: 10px; /* Adjust the gap size as needed */
+}
+
+.box1,.box2,.box3,.box4 {
+    flex: 1 1 calc(50% - 10px); /* Adjust to fit the gap */
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+    /* Optional: border for visualization */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; /* Optional: adjust font size */
+    background-color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.box1{
+    border-radius:350px 50px 5px 50px ;
+    color: black;
+    
+}
+.box2{
+    border-radius: 50px 350px 50px 5px; /* tl tr br bl  */
+    color:#0077B5;
+}
+.box3{
+    border-radius: 50px  5px 50px 350px;
+    color:#c13584
+}
+.box4{
+    border-radius:5px 50px  350px 50px;
+    color: #25D366;
+}
+.box1:hover{
+    background-color:black; ;
+    color: white;
+    transform: scale(1.15); /* Zoom effect */
+}
+.box2:hover{
+    color: white;
+    background-color:#0077B5; 
+    transform: scale(1.15); /* Zoom effect */
+}
+.box3:hover{
+    color: white;
+    background-color:#c13584;
+    transform: scale(1.15); /* Zoom effect */
+}
+.box4:hover{
+    color: white;
+    background-color: #25D366;
+    transform: scale(1.15); /* Zoom effect */
+}
+

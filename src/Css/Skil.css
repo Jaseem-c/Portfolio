@@ -1,0 +1,5 @@
+.imgdiv {
+    border: 2px solid;
+    border-image: linear-gradient(to left, #17acff, #ff68f0)1;
+    border-radius: 10px;
+}
