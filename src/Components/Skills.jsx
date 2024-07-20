@@ -17,7 +17,7 @@ function Skills() {
 
     return (
         <>
-            <div className='w-100 p-5' style={{ backgroundColor: "black" }}>
+            <div className='w-100 p-md-5' style={{ backgroundColor: "black" }}>
             <motion.h1
                     variants={fadeIn("up", 0.5)}
                     initial="hidden"
